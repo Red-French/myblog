@@ -1,0 +1,76 @@
+body {
+  font-family: Arial;
+  background-image: url("http://www.motherjones.com/files/wall_st_bull_0.jpg");
+  background-size: cover;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.inline {
+  display: inline;
+  margin-right: 60px;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.right-align {
+  text-align: right;
+}
+
+#blog-title {
+  font-family: "Arial";
+  color: white;
+}
+
+.bordered {
+  color: white;
+  border: 1px dotted black;
+  border-radius: 10px;
+  padding: 5px;  
+}
+
+.data {
+  background-color: yellow;
+  color: black;
+}
+
+.large {
+  font-size: 40px;
+}
+
+.margin-bottom {
+  margin: 0 0 10px 0;
+}
+
+#my-header {
+  margin-bottom: 7%;
+}
+
+#my-header > .navigation {
+}
+
+/* target first div child */
+#my-header + div {
+}
+
+/* target all div siblings */
+#my-header ~ div {
+  color: white;
+}
+
+table tr td {
+  color: white;
+}
+
+footer {
+  color: white;
+}
