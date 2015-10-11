@@ -4,41 +4,122 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<header id="my-header">
-  <nav class="navigation">
-    <div class="inline">Home</div>
-    <div class="inline">About</div>
-    <div class="inline">Old Rotten Products</div>
-    <div class="inline">Careers</div>
-  </nav>
-</header>
-<h1 id="blog-title" class="margin-bottom">Today's Market</h1>
-<div>blah blah blah blah blah blah blah</div>
-<div>Hello world2</div>
-<div>Hello world3</div>
-<!-- <img src="http://www.motherjones.com/files/wall_st_bull_0.jpg" width="250" height="200"> -->
-<section>
-  <p>Yesterday's market history chart:<br>
-<a href="http://1.bp.blogspot.com/_RZ_mL2cRGpk/TCoWI6j5y5I/AAAAAAAADew/IImMoAa1lhk/s1600/dow+1930s+%231.png" target="_blank">1929-1930 chart</a>
-</p>
-  <p class="navigation">Today's closing numbers:</p>
-</section>
-<section>
-  <table>
-    <tr>
-      <td >SP-500</td>
+
+<div id="background"> <!-- begin top -->
+  <header id="my-header">
+    <nav>
+      <div class="inline">Home</div>
+      <div class="inline">About</div>
+      <div class="inline">Products</div>
+      <div class="inline">Careers</div>
+    </nav>
+  </header>
+
+  <div> <!-- begin content -->
+    <section><!-- begin Today's Intraday Market -->
+      <h1 id="blog-title" class="margin-bottom">Today's Market</h1>
+      <div>blah blah blah blah blah blah blah</div>
+      <div>Hello world2</div>
+      <div>Hello world3</div>
+    </section> <!-- end Today's Intraday Market -->
+
+    <section> <!-- begin Market History -->
+      <p>Yesterday's market history chart:
+      <br>
+        <a href="http://1.bp.blogspot.com/_RZ_mL2cRGpk/TCoWI6j5y5I/AAAAAAAADew/IImMoAa1lhk/s1600/dow+1930s+%231.png" target="_blank">1929-1930 chart</a>
+      </p>
+      <p class="banner_text">Market Wizard</p>
+    </section> <!-- end Market History -->
+  </div> <!-- end content -->
+</div> <!-- end top -->
+
+<!-- ****************** -->
+<!-- ****************** -->
+
+<div id="closing-nums1"> <!-- begin Today's Closing Numbers -->
+  <section> 
+    <p class="navigation">Today's Index Futures numbers:</p>
+    <table>
+      <tr>
+        <td >SP-500</td>
 
 <!-- https://api.itbit.com/v1/markets/XBTUSD/ticker -->
 
+        <td id="sp-data" class="data large">data 1</td>
+      </tr>
+      <tr>
+        <td>NASDAQ</td>
+        <td class="data large">data 2</td>
+      </tr>
+    </table>
+  </section> 
+</div> <!-- end Today's Closing Numbers -->
 
-      <td id="sp-data" class="data large">data 1</td>
-    </tr>
-    <tr>
-      <td>NASDAQ</td>
-      <td class="data large">data 2</td>
-    </tr>
-  </table>
-</section>
+<!-- ****************** -->
+<!-- ****************** -->
+
+<div id="closing-nums2">
+  <section> <!-- begin Today's Futures Numbers -->
+    <p class="navigation">Today's Misc. Futures numbers:</p>
+    <table>
+      <tr>
+        <td >SP-500</td>
+
+  <!-- https://api.itbit.com/v1/markets/XBTUSD/ticker -->
+
+        <td id="sp-data" class="data large">data 1</td>
+      </tr>
+      <tr>
+        <td>NASDAQ</td>
+        <td class="data large">data 2</td>
+      </tr>
+    </table>
+  </section> <!-- end Today's Futures Numbers -->
+</div>
+
+<!-- ****************** -->
+<!-- ****************** -->
+
+<div id="closing-nums3">
+  <section> <!-- begin Today's Commodities Numbers -->
+    <p class="navigation">Today's Commodities numbers:</p>
+    <table>
+      <tr>
+        <td >SP-500</td>
+
+  <!-- https://api.itbit.com/v1/markets/XBTUSD/ticker -->
+
+        <td id="sp-data" class="data large">data 1</td>
+      </tr>
+      <tr>
+        <td>NASDAQ</td>
+        <td class="data large">data 2</td>
+      </tr>
+    </table>
+  </section> <!-- end Today's Commodities Numbers -->
+</div>
+
+<!-- ****************** -->
+<!-- ****************** -->
+
+<div id="closing-nums4">
+  <section> <!-- begin Today's Treasuries Numbers -->
+    <p class="navigation">Today's Treasuries closing numbers:</p>
+    <table>
+      <tr>
+        <td >SP-500</td>
+
+  <!-- https://api.itbit.com/v1/markets/XBTUSD/ticker -->
+
+        <td id="sp-data" class="data large">data 1</td>
+      </tr>
+      <tr>
+        <td>NASDAQ</td>
+        <td class="data large">data 2</td>
+      </tr>
+    </table>
+  </section> <!-- end Today's Treasuries  Numbers -->
+</div>
 <footer>October 6, 2015</footer>
 </body>
 </html>
